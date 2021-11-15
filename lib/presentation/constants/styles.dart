@@ -33,7 +33,7 @@ const unitTextStyle = TextStyle(
   color: Color(0x80ffffff),
 );
 
-// I added a some additional style consts for our form fields.
+// I added a some additional style constants for our form fields.
 const labelFieldStyle = InputDecoration(
   enabledBorder: UnderlineInputBorder(
     borderSide: BorderSide(color: Color(0xff53a99a), width: 2.0),
@@ -42,7 +42,7 @@ const labelFieldStyle = InputDecoration(
     borderSide: BorderSide(color: Color(0xff53a99a), width: 2.0),
   ),
   focusColor: Color(0xff53a99a),
-  labelText: 'Enter a muscle Group',
+  labelText: 'Enter a muscle group',
   labelStyle: TextStyle(color: Color(0xff53a99a)),
   hintText: 'e.g, "Core", "Upper Body"',
   hintStyle: TextStyle(

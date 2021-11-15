@@ -33,7 +33,7 @@ class _DemoScreenFormState extends State<DemoScreenForm> {
             width: screenWidth * .8,
             child: TextFormField(
               decoration: labelFieldStyle,
-              // We limit or label field to 16 chars or else it may leave the bounds
+              // We limit our label field to 16 chars or else it may leave the bounds
               // of our circular metric widget's available space.
               inputFormatters: [
                 LengthLimitingTextInputFormatter(16),
